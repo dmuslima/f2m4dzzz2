@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 967px;
+    height: 664px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.inputs{
+    width: 861px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+input{
+    width: 200px;
+    height: 44px;
+}
+#addButton{
+    width: 122px;
+    height: 44px;
+    background-color: #423CF2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.users{
+    width: 822px;
+    margin-top: 70px;
+}
+.user{
+    width: 821px;
+    height: 60px;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+.name{
+    margin-right: 500px;
+}
+.buttons button{
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+#darkMode{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .user {
+    background-color:#121212 ;
+}   
